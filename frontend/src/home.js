@@ -24,7 +24,7 @@ import { makeStyles, withStyles } from "@material-ui/core/styles";
 import Clear from "@material-ui/icons/Clear";
 import axios from "axios";
 import { DropzoneArea } from "material-ui-dropzone";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import AK from "./Ak.jpg";
 import image from "./bg.png";
 
