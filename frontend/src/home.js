@@ -94,7 +94,7 @@ export const ImageUpload = () => {
     const [isLoading, setIsLoading] = useState(false);
     let confidence = 0;
 
-const sendFile = useCallback(async () => {
+const sendFile = React.useCallback(async () => {
     if (image) {
         let formData = new FormData();
         formData.append("file", selectedFile);
